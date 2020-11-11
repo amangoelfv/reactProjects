@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import { Birthday } from './Birthday/Birthday';
+// import { Birthday } from './Birthday/Birthday';
+import Users from './Users/Users';
 
 function App() {
   return (
     <div className="App">
-    <Birthday />
+    <Users />
     </div>
   );
 }

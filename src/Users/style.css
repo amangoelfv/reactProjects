@@ -1,0 +1,51 @@
+.grid {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 10px 5px;
+    background: #fff;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.card a:visited {
+    color: black
+}
+
+.grid img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.grid img:hover{
+    transform: scale(1.2);
+    background-color: black;
+    opacity: 0.8;
+}
+
+.grid p {
+    padding: 0;
+    margin: 0 0 0 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.grid p:hover {
+    transform: translateY(-3px);
+}
